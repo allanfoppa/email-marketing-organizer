@@ -5,7 +5,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-configuracao">Configuração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-configuracao">Configuração</a>
 </p>
 
 <br>
@@ -17,13 +17,11 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Shell
-- [Axios](https://www.npmjs.com/package/axios)
 - Javascript
 - CSS
 - HTML
 
 <br>
-
 
 ## Projeto
 
@@ -48,7 +46,6 @@ npm install
 ```
 
 <br>
-<hr>
 
 ### COM SCRIPT
 
@@ -83,7 +80,6 @@ chmod +x start-new-template.sh
 4. E por último, será executado o comando "npm run dev" que aponta para o package.json em "scripts"
 
 <br>
-<hr>
 
 ### SEM SCRIPT
 
