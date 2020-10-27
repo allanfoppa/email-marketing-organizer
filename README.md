@@ -46,7 +46,6 @@ npm install
 ```
 
 <br>
-<hr>
 
 ### COM SCRIPT
 
@@ -81,7 +80,6 @@ chmod +x start-new-template.sh
 4. E por último, será executado o comando "npm run dev" que aponta para o package.json em "scripts"
 
 <br>
-<hr>
 
 ### SEM SCRIPT
 
