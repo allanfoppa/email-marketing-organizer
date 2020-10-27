@@ -1,0 +1,14 @@
+{
+  "templates": [
+{
+  "title": "Criado no Script",
+  "resume": "Todo criado via script",
+  "link": "criado-no-script"
+},
+    {
+      "title": "Exemplo",
+      "resume": "Template da campanha X",
+      "link": "exemplo"
+    }
+  ]
+}

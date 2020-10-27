@@ -1,0 +1,117 @@
+body {
+  background: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.module {
+  display: grid;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid #cccccc;
+  color: #696969;
+  padding: 0.5rem;
+  text-transform: lowercase;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.cards {
+  display: -webkit-box;
+  display: flex;
+  grid-auto-flow: column;
+  gap: 30px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__item {
+  display: -webkit-box;
+  padding-top: 1rem;
+  max-width: 520px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card:hover .card__image {
+  -webkit-filter: contrast(100%);
+  filter: contrast(100%);
+}
+.card__content {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  padding: 1rem;
+}
+@media (min-width: 40rem) {
+  .card__image::before {
+      padding-top: 66.6%;
+  }
+}
+
+.card_inner_container {
+  display: grid;
+  grid-template-columns: 1.5fr .1fr;
+  gap: 16px;
+}
+
+.card__title {
+  color: #696969;
+  font-size: 1.15rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card__badge {
+  display: flex;
+  align-self: center;
+  padding: 4px;
+  color: white;
+}
+
+.card__badge__zaffari-card-e-bourbon-card {
+  background-color: red;
+}
+
+.card__badge__airaz {
+  background-color: black;
+}
+
+.card__badge__poa-centerlar {
+  background-color: blue;
+}
+
+.card__text {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
