@@ -17,13 +17,11 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Shell
-- [Axios](https://www.npmjs.com/package/axios)
 - Javascript
 - CSS
 - HTML
 
 <br>
-
 
 ## Projeto
 
