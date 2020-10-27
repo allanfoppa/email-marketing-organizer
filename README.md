@@ -40,29 +40,33 @@ Uma estrutura simples para organizar os templates de e-mail marketing
 - INSTALAR AS DEPENDENCIAS
 
 ``` bash
-
 npm install
-
 ```
 
 <br>
+<hr>
 
 ### COM SCRIPT
 
 - HABILITAR A EXECUÇÃO DO SCRIPT
 
 ``` bash
-
 chmod +x start-new-template.sh
 
+ou
+
+chmod +x start-new-template.py
 ```
 
 - EXECUTA O SCRIPT
 
 ``` bash
-
 ./start-new-template.sh
+```
+ou
 
+``` python
+python3 start-new-template.py
 ```
 
 ## Duas opções serão mostradas
@@ -80,6 +84,7 @@ chmod +x start-new-template.sh
 4. E por último, será executado o comando "npm run dev" que aponta para o package.json em "scripts"
 
 <br>
+<hr>
 
 ### SEM SCRIPT
 
@@ -88,15 +93,12 @@ chmod +x start-new-template.sh
 1. Rodar o comando
 
 ``` bash
-
 npm run dev
-
 ```
 
 2. Inserir manualmente um template
 
 ``` json
-
 {
   "templates": [
     {
@@ -111,9 +113,7 @@ npm run dev
     }
   ]
 }
-
 ```
-
 ### COMO RODAR SHELL NO WINDOWS
 
 <br>
